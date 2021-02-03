@@ -1,4 +1,4 @@
-Feature: HRM Sign In
+Feature: Amazon Sign In
 
 Scenario Outline: Login Check
 Given User is on Amazon page <url>
