@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="auto.core.Listners"/>
+  </listeners>
+  <test thread-count="5" name="Functional Test(failed)">
+    <parameter name="url" value="https://www.amazon.com"/>
+    <classes>
+      <class name="module1.Test.AmazonTest">
+        <methods>
+          <include name="amazonProductVerification" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- module1.Test.AmazonTest -->
+    </classes>
+  </test> <!-- Functional Test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

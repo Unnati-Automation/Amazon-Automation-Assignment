@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.runTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 39.567 sec <<< FAILURE!
+Then Verify the product name as Nikon D3X(| https://www.amazon.com |)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: Second Product name mismatched, actual is Nikon D850 FX-Format Digital SLR Camera with Nikon AF-S NIKKOR 500mm f/5.6E PF ED VR Super-Telephoto Lens
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at stepDefs.stepDefinition.verifyProductName(stepDefinition.java:54)
+	at ?.Then Verify the product name as Nikon D3X(src/test/java/features/AmazonSearchProduct.feature:7)
+
+| https://www.amazon.com |  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: Second Product name mismatched, actual is Nikon D850 FX-Format Digital SLR Camera with Nikon AF-S NIKKOR 500mm f/5.6E PF ED VR Super-Telephoto Lens
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at stepDefs.stepDefinition.verifyProductName(stepDefinition.java:54)
+	at ?.Then Verify the product name as Nikon D3X(src/test/java/features/AmazonSearchProduct.feature:7)
+

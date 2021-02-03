@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 61.168 sec <<< FAILURE! - in TestSuite
+amazonProductVerification(module1.Test.AmazonTest)  Time elapsed: 47.951 sec  <<< FAILURE!
+java.lang.AssertionError: Second Product name mismatched, actual is Nikon D850 FX-Format Digital SLR Camera with Nikon AF-S NIKKOR 500mm f/5.6E PF ED VR Super-Telephoto Lens expected [true] but found [false]
+	at module1.Test.AmazonTest.amazonProductVerification(AmazonTest.java:25)
+
